@@ -1,0 +1,7 @@
+global _start:
+section .data
+db message "test"
+length equ $ - message
+section .text
+_start:
+
